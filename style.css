@@ -1,0 +1,262 @@
+@import "./fonts/fonts";
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* Header_Start */
+header {
+    background: url(./images/header_bg.jpg) no-repeat center center / cover;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 260px;
+}
+
+.header_son {
+    width: 1110px;
+
+}
+
+.header_top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 175px;
+}
+
+.header_logo a {
+    font-size: 24px;
+    font-family: "Mont-Bold";
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.header_number {
+    display: flex;
+    align-items: center;
+    font-family: "Mont-Regular";
+}
+
+.header_number p {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.header_number button {
+    border: none;
+    background: #68bf3b;
+    padding: 18px 26px;
+    margin-left: 50px;
+    border-radius: 25px;
+}
+
+.header_number button a {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.header_title {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.header_title h2 {
+    font-size: 18px;
+    font-family: "Mont-Black";
+}
+
+.header_title h1 {
+    padding: 30px 0 40px;
+    font-size: 72px;
+    font-family: "Mont-Black";
+}
+
+.header_title p {
+    font-size: 18px;
+    font-family: "Mont-Regular";
+}
+
+.header_title button {
+    border: none;
+    border: none;
+    background: #68bf3b;
+    padding: 18px 42px;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+
+.header_title button a {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "Mont-Regular";
+}
+
+.main_menu {
+    display: flex;
+}
+
+.main_menu .main_p h2 {
+    text-transform: uppercase;
+    padding-top: 110px;
+    font-size: 36px;
+    font-family: "Mont-Bold";
+    color: #68bf3b;
+}
+
+.main_menu .main_p .franchesko {
+    text-transform: capitalize;
+    padding-top: 70px;
+    font-size: 18px;
+    font-family: "Mont-Regular";
+    color: #bdbdbd;
+    padding-right: 112px;
+    line-height: 40px;
+}
+
+.main_sign {
+    display: flex;
+}
+
+.main_menu .main_image img {
+    padding-right: 40px;
+
+}
+
+.main_p {
+    font-size: 18px;
+    font-family: "Mont-Regular";
+    color: #bdbdbd;
+}
+
+.main_sign p {
+    margin-top: 70px;
+    margin-right: 111px;
+}
+
+.section_menu .section_img {
+    display: flex;
+    margin-top: 50px;
+}
+
+.section_menu {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+    margin: 10px auto  0;
+}
+
+.section_resept {
+    margin-left: 31px;
+}
+
+.section_resept h3 {
+    margin-top: 30px;
+    font-family: "Mont-Bold";
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #a6a6a6;
+}
+
+.section_resept p {
+    margin-top: 30px;
+    font-family: "Mont-Regular";
+    font-size: 14px;
+    color: #a6a6a6;
+}
+
+.section_button button{
+    border: none;
+    border-radius: 24px;
+    padding-top: 18px;
+    padding-right: 33px;
+    padding-left: 30px;
+    background: #63c414;
+    height: 50px;
+    padding-bottom: 20px;
+    margin-top: 33px;
+    
+}
+
+.section_button button a{
+    color: #ffffff;
+    padding-top: 32px;
+}
+.section_button h2{
+    margin-left: 15px;
+    margin-top: 45px;
+    color: #a6a6a6; 
+}
+.section_logo{
+    font-size: 24px;
+    font-family: "Mont-Bold";
+    color: #e1f5d0;
+    margin-bottom: 5px;
+    margin-left: 165px;
+}
+.main_image{
+    margin-left: 170px;
+}
+article{
+    display: flex;
+    justify-content: center;
+    padding: 150px 0 100px;
+}
+.article_menu{
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+}
+.article_image{
+    width: 350px;
+}
+.article_image img{
+    height: 350px;
+    width:300px;
+    border-radius: 50%;
+}
+.article_image h2{
+    font-family: "Mont-Bold";
+    font-size: 24px;
+    color: #a6a6a6;
+    text-align: center;
+}
+.article_image p{
+    font-family: "Mont-Regular";
+    font-size: 14px;
+    text-align: center;
+    color: #a6a6a6;   
+}
+footer{
+    height: 200px;
+    background: #060503;
+    width: 1535px;
+}
+.footer_logo{
+    font-size: 24px;
+    font-family: "Mont-Bold";
+    color: #ffffff;
+    padding-top: 50px;
+    padding-left: 165px;
+    text-transform: uppercase;
+}
+.footer_main{
+    display: flex;
+    justify-content: space-between;
+}
+.header_number .footer{
+    margin-top: 45px;
+    margin-right: 165px;
+    border-radius: 30px;
+}
+footer p{
+    font-family: "Mont-Thin";
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
